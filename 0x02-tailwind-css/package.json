@@ -1,0 +1,13 @@
+{
+  "name": "0x02-tailwind-css",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  },
+  "scripts": {
+    "dev:css": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  }
+}
+
+
