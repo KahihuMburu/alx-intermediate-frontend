@@ -1,0 +1,7 @@
+cat > 0-installation-script <<'EOF'
+1. Ensure Node.js and npm are installed (node -v, npm -v).
+2. Initialized npm in this folder: npm init -y
+3. Installed Sass as a dev dependency:
+   npm install -D sass
+4. Verified installation with: npx sass --version
+EOF
